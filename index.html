@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>dutchsandwich</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+  <style>
+  body {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+  }
+  .navbar {
+    border-radius: 0;
+  }
+  .h-banterbonus {
+    color: #31565b;
+  }
+  .parallax-window {
+    min-height: 400px;
+    background: transparent;
+  }
+  .huge {
+    position: relative;
+  }
+  h1.banterbonus {
+    position: absolute;
+    top: 48%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: #ececec;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    font-size: 50px;
+  }
+  .scrollme {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #ececec;
+    font-size: 20px;
+    padding: 4px 4px 0px 6px;
+  }
+  .marginate {
+    margin: 3em auto;
+  }
+  p.lead {
+    font-weight: 400;
+  }
+  .nm {
+    margin: 0 !important;
+  }
+  .site-footer {
+    background-color: #31565b;
+    color: #ececec;
+    padding: 3em 0;
+  }
+  .site-footer .h-banterbonus {
+    color: #4a8087;
+  }
+  a, a:visited, a:link {
+    color: #C72A25;
+  }
+  a:hover, a:active, a:focus {
+    color: #7D1708;
+    text-decoration: none;
+    outline: none;
+  }
+  </style>
+</head>
+<body>
+  <div class="huge parallax-window" data-parallax="scroll" data-image-src="./bg0.jpg">
+    <h1 class="banterbonus"><span class="h-banterbonus">#</span>dutchsandwich</h1>
+    <div class="scrollme">Coming Soon</div>
+  </div>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6">
+          <ul class="list-unstyled">
+            <li>Dutch sandwiches are tasty. We can make them easier.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="parallax.min.js"></script>
+  <script>
+    $(function() {
+      $('.huge').height(Math.max(document.documentElement.clientHeight, window.innerHeight || 0))
+    })
+  </script>
+</body>
+</html>
